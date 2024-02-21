@@ -23,6 +23,5 @@ jobs:
           plugin: docker
           skip_install: false
           giturl: https://github.com/doriancodes/asdf-docker
-          gitref: https://github.com/doriancodes/asdf-docker/tree/main
-          asdf_branch: https://github.com/doriancodes/asdf-docker/tree/main
+          asdf_branch: main
           github_token: ${{ secrets.GITHUB_TOKEN }}
