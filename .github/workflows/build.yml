@@ -20,4 +20,9 @@ jobs:
         uses: asdf-vm/actions/plugin-test@v3
         with:
           command: docker --help
+          plugin: docker
+          skip_install: false
+          giturl: https://github.com/doriancodes/asdf-docker
+          gitref: main
+          asdf_branch: main
           github_token: ${{ secrets.GITHUB_TOKEN }}
