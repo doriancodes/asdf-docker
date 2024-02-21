@@ -23,4 +23,4 @@ jobs:
           plugin: docker
           skip_install: false
           asdf_branch: master
-          github_token: ${{ secrets.GH_TOKEN }}
+          github_token: ${{ vars.GH_TOKEN }}
