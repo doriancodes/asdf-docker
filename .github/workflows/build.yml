@@ -22,6 +22,5 @@ jobs:
           command: docker --help
           plugin: docker
           skip_install: false
-          giturl: https://github.com/doriancodes/asdf-docker
-          asdf_branch: main
+          asdf_branch: master
           github_token: ${{ secrets.GITHUB_TOKEN }}
